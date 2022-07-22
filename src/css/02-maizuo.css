@@ -20,3 +20,7 @@ ul li{
   color: red;
 }
 
+.wrapper{
+  height: 160px;
+  overflow: hidden;
+}

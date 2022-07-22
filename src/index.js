@@ -11,7 +11,9 @@ import React from "react"
 // import App from '../src/08-state'
 // import App from '../src/09-循环渲染'
 // import App from '../src/10-todoList'
-import App from '../src/11-卖座选项卡'
+// import App from '../src/11-卖座选项卡'
+import App from '../src/12-betterScroll'
+
 
 // ReactDom.render(<App />,document.getElementById('root'))
 
