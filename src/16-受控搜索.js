@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class search extends Component {
   state = {
     list: [],
-    clonList: []
+    key: ""
   }
   constructor() {
     super()
@@ -13,29 +13,27 @@ export default class search extends Component {
       method: 'get'
     }).then(res => {
       this.setState({
-        list: res.data,
-        clonList: res.data
+        list: res.data
       })
     })
   }
 
 
   getList (e) {
-    console.log(e.target.value)
-    let key = e.target.value
-    let newList = this.state.list.filter(item => item.title.includes(key))
     this.setState({
-      clonList: newList
+      key: e.target.value
     })
-    console.log(this.state.clonList)
+  }
+  getNewList () {
+    return this.state.list.filter(item => item.title.includes(this.state.key))
   }
   render () {
-    let list = this.state.clonList.map(item => <div key={item.id}>{item.title}</div>)
+    // let list = this.state.clonList.map(item => <div key={item.id}>{item.title}</div>)
     return (
       <div>
-        <input type="text" onInput={(e) => { this.getList(e) }}></input>
+        <input type="text" value={this.state.key} onInput={(e) => { this.getList(e) }}  ></input>
         <div>
-          {list}
+          {this.getNewList().map(item => <div key={item.id}>{item.title}</div>)}
         </div>
       </div >
     )

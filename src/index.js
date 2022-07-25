@@ -13,7 +13,12 @@ import React from "react"
 // import App from '../src/10-todoList'
 // import App from '../src/11-卖座选项卡'
 // import App from '../src/12-betterScroll'
-import App from '../src/13-props'
+// import App from '../src/13-props'
+// import App from '../src/14-非受控组件'
+// import App from '../src/15-受控组件'
+// import App from '../src/16-受控搜索'
+import App from '../src/17-受控todolist'
+
 
 
 

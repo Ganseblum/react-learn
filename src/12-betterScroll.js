@@ -11,10 +11,6 @@ export default class search extends Component {
     super()
     axios({
       url: 'http://jsonplaceholder.typicode.com/posts',
-      // headers: {
-      //   'X-Client-Info': '{ "a": "3000", "ch": "1002", "v": "5.2.0", "e": "16584148861332367574695937", "bc": "110100" }',
-      //   'X-Host': 'mall.cfg.cinema.banners'
-      // },
       method: 'get'
     }).then(res => {
       this.setState({
