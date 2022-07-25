@@ -38,7 +38,7 @@ class App extends Component {
   }
   changeStatus (index) {
 
-    let newList = this.state.list
+    let newList = this.state.list.slice()
     newList[index].check = !newList[index].check
     this.setState({
       list: newList
