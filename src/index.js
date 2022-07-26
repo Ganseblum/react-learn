@@ -21,7 +21,9 @@ import React from "react"
 // import App from '../src/01-base/17-受控todolist'
 
 // 02-advanced
-import App from '../src/02-advanced/01-子传父.js'
+// import App from '../src/02-advanced/01-子传父.js'
+import App from '../src/02-advanced/02-非受控选项卡.js'
+
 
 
 
