@@ -22,7 +22,9 @@ import React from "react"
 
 // 02-advanced
 // import App from '../src/02-advanced/01-子传父.js'
-import App from './02-advanced/02-受控选项卡.js'
+// import App from './02-advanced/02-受控选项卡.js'
+// import App from './02-advanced/03-父子通信版-表单域组件.js'
+import App from './04-advanced/04-ref版-表单域组件.js'
 
 
 
