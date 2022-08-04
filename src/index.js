@@ -9,7 +9,7 @@ import React from "react"
 // import App from '../src/01-base/05-事件处理'
 // import App from '../src/01-base/06-传递参数'
 // import App from '../src/01-base/07-ref'
-// import App from '../src/01-base/08-state'
+import App from '../src/01-base/08-state'
 // import App from '../src/01-base/09-循环渲染'
 // import App from '../src/01-base/10-todoList'
 // import App from '../src/01-base/11-卖座选项卡'
@@ -24,7 +24,11 @@ import React from "react"
 // import App from '../src/02-advanced/01-子传父.js'
 // import App from './02-advanced/02-受控选项卡.js'
 // import App from './02-advanced/03-父子通信版-表单域组件.js'
-import App from './04-advanced/04-ref版-表单域组件.js'
+// import App from './02-advanced/04-ref版-表单域组件.js'
+// import App from './02-advanced/05-中间人模式.js'
+// import App from './02-advanced/06-订阅发布模式.js'
+// import App from './02-advanced/07-context.js'
+
 
 
 
