@@ -21,7 +21,12 @@ class App extends Component {
 	add () {
 		// this.setState({
 		// 	num: this.state.num + 1
+		// }, () => {
+		// 	console.log(this.state.num)
 		// })
+		// this.setState((state) => ({
+		// 	num: state.num + 1
+		// }))
 		// this.setState((state) => ({
 		// 	num: state.num + 1
 		// }))

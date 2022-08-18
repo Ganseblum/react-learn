@@ -9,7 +9,7 @@ import React from "react"
 // import App from '../src/01-base/05-事件处理'
 // import App from '../src/01-base/06-传递参数'
 // import App from '../src/01-base/07-ref'
-import App from '../src/01-base/08-state'
+// import App from '../src/01-base/08-state'
 // import App from '../src/01-base/09-循环渲染'
 // import App from '../src/01-base/10-todoList'
 // import App from '../src/01-base/11-卖座选项卡'
@@ -28,6 +28,17 @@ import App from '../src/01-base/08-state'
 // import App from './02-advanced/05-中间人模式.js'
 // import App from './02-advanced/06-订阅发布模式.js'
 // import App from './02-advanced/07-context.js'
+// import App from './02-advanced/08-生命周期.js'
+
+// 03-hooks
+// import App from './03-hooks/01-useState.js'
+// import App from './03-hooks/02-useEffect.js'
+// import App from './03-hooks/03-todoList.js'
+import App from './03-hooks/04-useCallback.js'
+
+
+
+
 
 
 
