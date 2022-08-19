@@ -34,7 +34,8 @@ import React from "react"
 // import App from './03-hooks/01-useState.js'
 // import App from './03-hooks/02-useEffect.js'
 // import App from './03-hooks/03-todoList.js'
-import App from './03-hooks/04-useCallback.js'
+// import App from './03-hooks/04-useCallback.js'
+import App from './03-hooks/05-useMemo.js'
 
 
 
