@@ -1,4 +1,6 @@
 import React from "react"
+import store from "./05-redux/tabbar/redux/store.js"
+import { Provider } from "react-redux"
 // import ReactDom from 'react-dom'
 
 // 01-base
@@ -35,22 +37,28 @@ import React from "react"
 // import App from './03-hooks/02-useEffect.js'
 // import App from './03-hooks/03-todoList.js'
 // import App from './03-hooks/04-useCallback.js'
-import App from './03-hooks/05-useMemo.js'
+// import App from './03-hooks/06-useRef.js'
+// import App from './03-hooks/07-useContext.js'
+// import App from './03-hooks/08-useReducer.js'
+
+// 04-route
+// import App from './04-route/index.js'
+
+//05-redux
+// import App from './05-redux/index.js'
+
+//06-react-redux
+import App from './06-react-redux/index.js'
 
 
 
-
-
-
-
-
-
-
-
-
-// ReactDom.render(<App />,document.getElementById('root'))
+// ReactDom.render(<App />, document.getElementById('root'))
 
 import { createRoot } from 'react-dom/client'
 const container = document.getElementById('root')
 const root = createRoot(container)
-root.render(<App />)
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+)

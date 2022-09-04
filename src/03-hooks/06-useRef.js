@@ -1,20 +1,23 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useState, useRef } from 'react'
 
 const APP = () => {
-  const [state, setstate] = useState(1)
+  const [state, setstate] = useState(0)
+  const myRef = useRef()
+  // 存值，.current
+  var count = useRef(0)
 
-
- 
+  // var count = 0
+  const add = () => {
+    setstate(state + 1)
+    count.current++
+  }
   return (
     <div>
-      <button onClick={() => { setstate(state + 1) ;add()}}>dd</button>
-      {state}- {count}
-			 <button onClick={() => {
-			                setDark(!dark)
-			            }}>change theme
-			            </button>
-			
-			  <p style={themeStyle}>123</p>
+      <input type="text" ref={myRef} />
+      <button onClick={() => { add(); console.log(myRef.current.value); count++ }}>+1</button>
+      {state} -- {count.current}
+
     </div>
   )
 }
